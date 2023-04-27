@@ -5,13 +5,20 @@ Cleanup your old unused ami and related snapshots
 
 |Travis CI| |codecov.io| |pypi|
 
+
+Maintenance note
+----------------
+This project is not under active maintenance but still active. 
+Consider using the official AWS-supported `Amazon Data Lifecycle Manager
+<https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html>`__.
+
 Description
 -----------
 
 This tool enables you to clean your custom `Amazon Machine Images (AMI)
-<http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>`__ and
+<https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>`__ and
 related `EBS Snapshots
-<http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html>`__.
+<https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html>`__.
 
 You can either run in ``fetch and clean`` mode where the tool will
 retrieve all your private **AMIs** and EC2 instances, exclude AMIs being
